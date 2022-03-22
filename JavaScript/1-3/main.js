@@ -1,25 +1,19 @@
-//問1：次の条件を、論理演算子を使って表してください。
-//・変数aは10ではない
-console.log(a !== 10);
-//・変数bは10以上20未満、かつ偶数である。
-if(b >= 10 && b <= 20) {
-    if(b % 2 === 0)
-    console.log(b)
-}
+let a = (a !== 10)
+console.log(a);
 
-//問2：以下の条件を満たすように、記述してください
+if(b >= 10 && b <= 20 && b % 2 === 0)
+    console.log(b)
+
 let x = 10;
-if (x >= 10 && x <= 10) {
+if (x >= 10 && x <= 20) {
     console.log('成功です');
 } else {
     console.log('失敗です');
 }
 
-
-//問3：以下の条件を満たすように、記述してください
 let y = 0;
 if (y % 2 === 0) {
     console.log('偶数です');
-}else if (y % 2 ! == 0) {
+}else if (y % 2 !== 0) {
     console.log('奇数です');
 }
