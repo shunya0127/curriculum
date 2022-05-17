@@ -1,6 +1,8 @@
 let scores = [10, 15, 20, 25];
-for (let a = a % 2 === 0; a < 4; a++) {
-    console.log(scores[a] + 'は偶数です');
+for (let i = 1; i < 4; i++) {
+    if(i % 2 == 0) {
+     console.log(scores[i] + "は偶数です");
+    }
 }
 
 let car = {
@@ -8,4 +10,4 @@ let car = {
     num: 1234,
 };
 
-console.log(gass.num)
+console.log(gass.num);
