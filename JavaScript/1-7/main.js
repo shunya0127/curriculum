@@ -10,4 +10,4 @@ class Taiyaki {
 let anko = new Taiyaki("あんこ");
 let cream = new Taiyaki("クリーム");
 let cheese = new Taiyaki("チーズ");
-Nakami();
+anko.Nakami();
