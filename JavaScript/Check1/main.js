@@ -1,6 +1,8 @@
 let numbers = [2, 5, 12, 13, 15, 18, 22];
-for  (let i = 0; i < 7; i++){
-    if(i % 2 == 0)
+for  (let i = 0; i < scores.length; i++){
+    if( i % 2 === 0 ) {
+        console.log(isEven);
+    }
 }
 function isEven() {
     console.log(num + 'は偶数です');
