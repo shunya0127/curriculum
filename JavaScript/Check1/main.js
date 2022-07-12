@@ -1,7 +1,7 @@
 let numbers = [2, 5, 12, 13, 15, 18, 22];
-for  (let i = 0; i < scores.length; i++){
+for  (let i = 0; i < numbers.length; i++){
     if( i % 2 === 0 ) {
-        console.log(isEven);
+        isEven(num);
     }
 }
 function isEven() {
