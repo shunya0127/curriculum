@@ -14,8 +14,11 @@
 </head>
 <body>
     <div id="box"></div>
-    <p id="target"></p>
-    <input type="button" value="クリック！" onclick="myfunc()">
-        <scriput src="js/main.js"></scriput>
+        <script type="text/javascript">
+            document.getElementById("box").addEventListener("click",
+            function () {
+                this.style.backgroundColor = "red";
+            })
+        </script>
 </body>
 </html>
